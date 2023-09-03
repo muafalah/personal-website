@@ -1,7 +1,8 @@
-import Breakline from '@/common/components/elements/Breakline';
-import Introduction from './Introduction';
-import CareerList from './CareerList';
-import SkillList from './SkillList';
+import Breakline from "@/common/components/elements/Breakline";
+import Introduction from "./Introduction";
+import CareerList from "./CareerList";
+import SkillList from "./SkillList";
+import Services from "./Services";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <CareerList />
       <Breakline className="mt-8 mb-6" />
       <SkillList />
+      <Services />
     </>
   );
 }

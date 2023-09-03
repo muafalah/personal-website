@@ -1,10 +1,8 @@
-import { HiCode } from 'react-icons/hi';
-import CareerCard from './CareerCard';
-import SectionHeading from '@/common/components/elements/SectionHeading';
-import SectionSubHeading from '@/common/components/elements/SectionSubHeading';
-import { CAREERS } from '@/common/constant/careers';
-import { SKILLS } from '@/common/constant/skills';
-import SkillCard from './SkillCard';
+import { HiCode } from "react-icons/hi";
+import SectionHeading from "@/common/components/elements/SectionHeading";
+import SectionSubHeading from "@/common/components/elements/SectionSubHeading";
+import { SKILLS } from "@/common/constant/skills";
+import SkillCard from "./SkillCard";
 
 export default function SkillList() {
   return (

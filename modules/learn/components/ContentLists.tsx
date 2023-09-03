@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { ContentProps } from '@/common/types/learn';
-import React from 'react';
-import LearnSubContentItem from './LearnSubContentItem';
-import { MdxFileProps } from '@/common/types/mdx';
+import { motion } from "framer-motion";
+import { ContentProps } from "@/common/types/learn";
+import React from "react";
+import LearnSubContentItem from "./LearnSubContentItem";
+import { MdxFileProps } from "@/common/types/mdx";
 
 interface ContentListsProps {
   sortedSubContents: MdxFileProps[];

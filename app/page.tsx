@@ -1,12 +1,12 @@
-import Container from '@/common/components/elements/Container';
-import Home from '@/modules/home';
-import { Metadata } from 'next';
-import { METADATA } from '@/common/constant/metadata';
+import { Metadata } from "next";
+import Container from "@/common/components/elements/Container";
+import Home from "@/modules/home";
+import { METADATA_GLOBAL } from "@/common/constant/metadata";
 
 export const metadata: Metadata = {
-  title: `${METADATA.creator} | Personal Website`,
+  title: `${METADATA_GLOBAL.creator} | Personal Website`,
   alternates: {
-    canonical: process.env.DOMAIN,
+    canonical: METADATA_GLOBAL.url,
   },
 };
 

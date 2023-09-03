@@ -1,14 +1,12 @@
-import Link from 'next/link';
-import { HiOutlineBriefcase as CareerIcon } from 'react-icons/hi';
-import { LuDownload as DownloadIcon } from 'react-icons/lu';
+import Link from "next/link";
+import { HiOutlineBriefcase as CareerIcon } from "react-icons/hi";
+import { LuDownload as DownloadIcon } from "react-icons/lu";
 
-import CareerCard from './CareerCard';
-import SectionHeading from '@/common/components/elements/SectionHeading';
-import SectionSubHeading from '@/common/components/elements/SectionSubHeading';
-import { CAREERS } from '@/common/constant/careers';
-
-const RESUME_URL =
-  'https://res.cloudinary.com/dvlbwm8c1/image/upload/f_auto,q_auto/v1/codebayu/c7y1km2xd0sgvnvjlzyr';
+import CareerCard from "./CareerCard";
+import SectionHeading from "@/common/components/elements/SectionHeading";
+import SectionSubHeading from "@/common/components/elements/SectionSubHeading";
+import { CAREERS } from "@/common/constant/careers";
+import { METADATA_GLOBAL } from "@/common/constant/metadata";
 
 export default function CareerList() {
   return (
@@ -20,7 +18,7 @@ export default function CareerList() {
             My professional career journey.
           </p>
           <Link
-            href={RESUME_URL}
+            href={METADATA_GLOBAL.resume_url}
             target="_blank"
             passHref
             className="flex gap-2 hover:gap-3 transition-all duration-300 items-center text-neutral-600 dark:text-neutral-500 hover:text-neutral-700 hover:dark:text-neutral-300"

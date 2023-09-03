@@ -1,13 +1,13 @@
-import BackButton from '@/common/components/elements/BackButton';
-import Container from '@/common/components/elements/Container';
-import PageHeading from '@/common/components/elements/PageHeading';
-import { LEARN_CONTENTS } from '@/common/constant/learn';
-import { METADATA } from '@/common/constant/metadata';
-import loadMdxFiles from '@/common/libs/mdx';
-import ContentLists from '@/modules/learn/components/ContentLists';
-import { compareDesc, parseISO } from 'date-fns';
-import { Metadata, ResolvingMetadata } from 'next';
-import React from 'react';
+import BackButton from "@/common/components/elements/BackButton";
+import Container from "@/common/components/elements/Container";
+import PageHeading from "@/common/components/elements/PageHeading";
+import { LEARN_CONTENTS } from "@/common/constant/learn";
+import { METADATA } from "@/common/constant/metadata";
+import loadMdxFiles from "@/common/libs/mdx";
+import ContentLists from "@/modules/learn/components/ContentLists";
+import { compareDesc, parseISO } from "date-fns";
+import { Metadata, ResolvingMetadata } from "next";
+import React from "react";
 
 interface LearnContentPage {
   params: { content: string };
@@ -31,7 +31,7 @@ export async function generateMetadata(
       url: METADATA.openGraph.url,
       siteName: METADATA.openGraph.siteName,
       locale: METADATA.openGraph.locale,
-      type: 'article',
+      type: "article",
       authors: METADATA.creator,
     },
     keywords: content?.title,
@@ -75,12 +75,12 @@ async function getContent(contentSlug: string) {
   if (!content) {
     return {
       redirect: {
-        destination: '/404',
+        destination: "/404",
         permanent: false,
       },
     };
   }
-  const subContentList = loadMdxFiles(content?.slug);
+  const subContentList = loadMdxFiles("learn", content?.slug);
   return {
     content,
     subContents: subContentList,

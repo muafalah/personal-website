@@ -1,12 +1,12 @@
-import BackButton from '@/common/components/elements/BackButton';
-import Breakline from '@/common/components/elements/Breakline';
-import Container from '@/common/components/elements/Container';
-import { METADATA } from '@/common/constant/metadata';
-import loadMdxFiles from '@/common/libs/mdx';
-import ContentDetail from '@/modules/learn/components/ContentDetail';
-import ContentDetailHeader from '@/modules/learn/components/ContentDetailHeader';
-import { Metadata, ResolvingMetadata } from 'next';
-import React from 'react';
+import BackButton from "@/common/components/elements/BackButton";
+import Breakline from "@/common/components/elements/Breakline";
+import Container from "@/common/components/elements/Container";
+import { METADATA } from "@/common/constant/metadata";
+import loadMdxFiles from "@/common/libs/mdx";
+import ContentDetail from "@/modules/learn/components/ContentDetail";
+import ContentDetailHeader from "@/modules/learn/components/ContentDetailHeader";
+import { Metadata, ResolvingMetadata } from "next";
+import React from "react";
 
 interface Params {
   content: string;
@@ -29,7 +29,7 @@ export async function generateMetadata(
       url: METADATA.openGraph.url,
       siteName: METADATA.openGraph.siteName,
       locale: METADATA.openGraph.locale,
-      type: 'article',
+      type: "article",
       authors: METADATA.creator,
     },
     category: meta.category,
@@ -62,12 +62,12 @@ export default async function LearnContentDetailPage({
 }
 
 async function getContentDetail(params: Params) {
-  const contentList = await loadMdxFiles(params.content);
+  const contentList = await loadMdxFiles("learn", params.content);
   const contentData = contentList.find((item) => item.slug === params.slug);
   if (!contentData) {
     return {
       redirect: {
-        destination: '/404',
+        destination: "/404",
         permanent: false,
       },
     };

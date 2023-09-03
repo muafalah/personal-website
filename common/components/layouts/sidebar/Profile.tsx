@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import React, { useEffect, useState } from 'react';
-import { AnimatePresence } from 'framer-motion';
-import Status from '@/common/components/elements/Status';
-import useIsMobile from '@/hooks/useIsMobile';
-import ProfileHeader from './ProfileHeader';
-import ThemeToggle from '../../elements/ThemeToggle';
-import clsx from 'clsx';
-import MobileMenuButton from './MobileMenuButton';
-import MobileMenu from './MobileMenu';
-import { useMenu } from '@/context/menu';
+import React, { useEffect } from "react";
+import { AnimatePresence } from "framer-motion";
+import Status from "@/common/components/elements/Status";
+import useIsMobile from "@/hooks/useIsMobile";
+import ProfileHeader from "./ProfileHeader";
+import ThemeToggle from "../../elements/ThemeToggle";
+import clsx from "clsx";
+import MobileMenuButton from "./MobileMenuButton";
+import MobileMenu from "./MobileMenu";
+import { useMenu } from "@/context/menu";
 
 export default function Profile() {
   const isMobile = useIsMobile();
@@ -18,21 +18,21 @@ export default function Profile() {
 
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = 'auto';
+      document.body.style.overflow = "auto";
     }
 
     return () => {
-      document.body.style.overflow = 'auto';
+      document.body.style.overflow = "auto";
     };
   }, [isOpen]);
 
   return (
     <div
       className={clsx(
-        'z-20 fixed shadow-sm xl:shadow-none lg:border-none dark:border-b dark:border-neutral-800 bg-white dark:bg-dark lg:!bg-transparent w-full p-5 lg:relative lg:p-0',
-        isOpen && 'pb-0'
+        "z-20 fixed shadow-sm xl:shadow-none lg:border-none dark:border-b dark:border-neutral-800 bg-white dark:bg-dark lg:!bg-transparent w-full p-5 lg:relative lg:p-0",
+        isOpen && "pb-0"
       )}
     >
       <div className="flex items-start justify-between lg:flex-col lg:space-y-4 ">
@@ -46,9 +46,9 @@ export default function Profile() {
         {isMobile && (
           <div
             className={clsx(
-              'flex lg:hidden items-center gap-5 mt-2',
+              "flex lg:hidden items-center gap-5 mt-2",
               isOpen &&
-                '!items-end flex-col-reverse justify-between h-[120px] pb-1'
+                "!items-end flex-col-reverse justify-between h-[120px] pb-1"
             )}
           >
             <ThemeToggle />

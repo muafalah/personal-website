@@ -2,15 +2,15 @@ export interface IProjectItem {
   id: number;
   title: string;
   slug: string;
+  tag: string;
   description: string;
+  keywords: string;
   image: string;
-  link_demo?: string | null;
-  link_github?: string | null;
-  stacks: string;
-  content?: string | null;
+  stacks: string[];
+  link_demo: { label: string; url: string };
+  link_source: { label: string; url: string; icon: string };
   is_show: boolean;
-  is_featured: boolean;
-  updated_at: Date;
+  content?: string;
 }
 
 export interface IProjectsItemProps {
