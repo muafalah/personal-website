@@ -1,7 +1,7 @@
 import BackButton from "@/common/components/elements/BackButton";
 import Breakline from "@/common/components/elements/Breakline";
 import Container from "@/common/components/elements/Container";
-import { METADATA } from "@/common/constant/metadata";
+import { METADATA_GLOBAL } from "@/common/constant/metadata";
 import loadMdxFiles from "@/common/libs/mdx";
 import ContentDetail from "@/modules/learn/components/ContentDetail";
 import ContentDetailHeader from "@/modules/learn/components/ContentDetailHeader";
@@ -24,16 +24,17 @@ export async function generateMetadata(
   const data = await getContentDetail(params);
   const { frontMatter: meta } = data as any;
   return {
-    title: `${meta?.title} ${METADATA.exTitle}`,
+    title: `${meta?.title} | ${METADATA_GLOBAL.exTitle}`,
     openGraph: {
-      url: METADATA.openGraph.url,
-      siteName: METADATA.openGraph.siteName,
-      locale: METADATA.openGraph.locale,
+      url: METADATA_GLOBAL.url,
+      siteName: METADATA_GLOBAL.siteName,
+      locale: METADATA_GLOBAL.locale,
       type: "article",
-      authors: METADATA.creator,
+      authors: METADATA_GLOBAL.creator,
     },
     category: meta.category,
-    keywords: meta.title,
+    keywords: meta.keywords,
+    description: meta.description,
     alternates: {
       canonical: `${process.env.DOMAIN}/learn/${params.content}/${params.slug}`,
     },

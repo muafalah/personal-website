@@ -51,3 +51,17 @@ export const METADATA_ABOUT = {
   description: `${METADATA_GLOBAL.description}`,
   keywords: METADATA_GLOBAL.keywords,
 };
+
+export const METADATA_LEARN = {
+  title: "Learn",
+  description: "Programming tips for software developer",
+  keywords:
+    "frontend developer, software engineer, react js, javascript, typescript",
+};
+
+export const METADATA_BLOG = {
+  title: "Blogs",
+  description: "My blogs content about programming and software development",
+  keywords:
+    "blog muhammad ifa amrillah, article, devto, tips trick, programming, developer",
+};

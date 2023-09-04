@@ -1,28 +1,30 @@
-import { Metadata } from 'next';
-import Container from '@/common/components/elements/Container';
-import PageHeading from '@/common/components/elements/PageHeading';
-import Dashboard from '@/modules/dashboard';
-import axios from 'axios';
+import { Metadata } from "next";
+import Container from "@/common/components/elements/Container";
+import PageHeading from "@/common/components/elements/PageHeading";
+import Dashboard from "@/modules/dashboard";
+import axios from "axios";
 import {
   GITHUB_ACCOUNTS,
   GITHUB_API_BASE_URL,
   GITHUB_USER_QUERY,
-} from '@/common/constant/github';
-import { METADATA } from '@/common/constant/metadata';
+} from "@/common/constant/github";
+import { METADATA } from "@/common/constant/metadata";
+import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   title: `Dashboard ${METADATA.exTitle}`,
-  description: 'My activity dashboard as software engineer',
+  description: "My activity dashboard as software engineer",
   alternates: {
     canonical: `${process.env.DOMAIN}/dashboard`,
   },
 };
 
-const PAGE_TITLE = 'Dashboard';
+const PAGE_TITLE = "Dashboard";
 const PAGE_DESCRIPTION =
-  'This is my personal dashboard, built with Next.js API routes deployed as serverless functions.';
+  "This is my personal dashboard, built with Next.js API routes deployed as serverless functions.";
 
 export default async function DahboardPage() {
+  redirect("/404");
   const githubData = await getGithubData();
   return (
     <>

@@ -2,7 +2,7 @@ import BackButton from "@/common/components/elements/BackButton";
 import Container from "@/common/components/elements/Container";
 import PageHeading from "@/common/components/elements/PageHeading";
 import { LEARN_CONTENTS } from "@/common/constant/learn";
-import { METADATA } from "@/common/constant/metadata";
+import { METADATA_GLOBAL, METADATA_LEARN } from "@/common/constant/metadata";
 import loadMdxFiles from "@/common/libs/mdx";
 import ContentLists from "@/modules/learn/components/ContentLists";
 import { compareDesc, parseISO } from "date-fns";
@@ -24,19 +24,19 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { content } = await getContent(params.content);
   return {
-    title: `${content?.title} ${METADATA.exTitle}`,
-    description: `${content?.description} on ${METADATA.openGraph.siteName}`,
+    title: `${content?.title} | ${METADATA_GLOBAL.exTitle}`,
+    description: `${content?.description} on ${METADATA_GLOBAL.siteName}`,
+    keywords: content?.keywords,
     openGraph: {
       images: content?.image,
-      url: METADATA.openGraph.url,
-      siteName: METADATA.openGraph.siteName,
-      locale: METADATA.openGraph.locale,
+      url: METADATA_GLOBAL.url,
+      siteName: METADATA_GLOBAL.siteName,
+      locale: METADATA_GLOBAL.locale,
       type: "article",
-      authors: METADATA.creator,
+      authors: METADATA_GLOBAL.creator,
     },
-    keywords: content?.title,
     alternates: {
-      canonical: `${METADATA.openGraph.url}/learn/${params.content}`,
+      canonical: `${METADATA_GLOBAL.url}/learn/${params.content}`,
     },
   };
 }

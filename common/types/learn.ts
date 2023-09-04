@@ -8,9 +8,10 @@ export interface ContentProps {
   title: string;
   slug: string;
   description: string;
+  keywords: string;
   image: string;
   is_new: boolean;
-  level: 'beginner' | 'intermediate' | 'advanced' | 'all-levels';
+  level: "beginner" | "intermediate" | "advanced" | "all-levels";
   is_show: boolean;
 }
 

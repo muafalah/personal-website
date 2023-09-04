@@ -6,6 +6,7 @@ export const LEARN_CONTENTS: ContentProps[] = [
     title: "Learn Git",
     slug: "git",
     description: "Master the Art of Collaboration with Git!",
+    keywords: "Learn Git, Github, Gitlab",
     image:
       "https://res.cloudinary.com/dvlbwm8c1/image/upload/v1692937293/codebayu/learn/krz2jp0uokctceav0tkp.webp",
     is_new: true,
