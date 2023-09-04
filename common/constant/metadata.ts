@@ -35,9 +35,11 @@ export const METADATA_GLOBAL = {
     "muhammad ifa amrillah, portfolio website, frontend developer, ui/ux designer, react js, next js",
   creator: "Muhammad Ifa Amrillah",
   url: process.env.DOMAIN,
-  siteName: "Muhammad Ifa Amrillah",
+  siteName: "Muhammad Ifa Amrillah | Portfolio Website",
   locale: "id-ID",
   exTitle: "Muhammad Ifa Amrillah",
+  images:
+    "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1693810808/WhatsApp_Image_2023-09-04_at_13.54.12_ecc0oe.jpg",
 };
 
 export const METADATA_PROJECTS = {

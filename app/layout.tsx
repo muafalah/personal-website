@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: METADATA_GLOBAL.url,
   },
   openGraph: {
-    images: METADATA_GLOBAL.profile_url,
+    images: METADATA_GLOBAL.images,
     url: METADATA_GLOBAL.url,
     siteName: METADATA_GLOBAL.siteName,
     locale: METADATA_GLOBAL.locale,
