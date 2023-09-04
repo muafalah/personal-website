@@ -39,7 +39,7 @@ export const METADATA_GLOBAL = {
   locale: "id-ID",
   exTitle: "Muhammad Ifa Amrillah",
   images:
-    "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1693810808/WhatsApp_Image_2023-09-04_at_13.54.12_ecc0oe.jpg",
+    "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1693810808/cover-personal-website.jpg",
 };
 
 export const METADATA_PROJECTS = {
