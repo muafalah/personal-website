@@ -26,6 +26,7 @@ export async function generateMetadata(
   return {
     title: `${meta?.title} | ${METADATA_GLOBAL.exTitle}`,
     openGraph: {
+      images: meta?.cover_url,
       url: METADATA_GLOBAL.url,
       siteName: METADATA_GLOBAL.siteName,
       locale: METADATA_GLOBAL.locale,

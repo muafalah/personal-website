@@ -3,7 +3,7 @@ import { IProjectItem } from "../types/projects";
 export const PROJECTS: IProjectItem[] = [
   {
     id: 1,
-    title: "TerraKota Residence",
+    title: "TerraKota Residence - Real Project",
     slug: "terrakota-residence",
     tag: "Frontend Web",
     description:
@@ -26,7 +26,53 @@ export const PROJECTS: IProjectItem[] = [
   },
   {
     id: 2,
-    title: "Skilvul Challenge: Mentor On Demand - UX Case Study",
+    title: "Airbnb Clone - Case Study",
+    slug: "airbnb-clone",
+    tag: "Fullstack Web",
+    description:
+      "I am pleased to present the Airbnb Clone project, a fullstack web application that I developed using NextJs, MongoDB, TailwindCSS, Prisma, and Typescript. This project demonstrates my ability to design and implement a web application with property search, booking, and rental dashboard features, while ensuring an attractive and responsive user interface. In this project, I combined my knowledge in frontend and backend development to create a seamless and functional user experience.",
+    keywords:
+      "Personal website, portfolio, and blog built with Next.js, TypeScript, Tailwind CSS, SWR, Postgresql, and Prisma.",
+    image:
+      "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1694415464/Personal/airbnb-clone-case-study.jpg",
+    stacks: ["Next JS", "Tailwind CSS", "TypeScript", "Mongo DB", "Prisma"],
+    link_demo: {
+      label: "Live Demo",
+      url: "https://airbnb-clone-muafalah.vercel.app/",
+    },
+    link_source: {
+      label: "See on Github",
+      url: "https://github.com/muafalah/airbnb-clone",
+      icon: "Github",
+    },
+    is_show: true,
+  },
+  {
+    id: 3,
+    title: "Digifund - Case Study",
+    slug: "digifund",
+    tag: "Frontend Web",
+    description:
+      "Introducing the 'Digifund' website project that I developed using NextJS and Framer Motion. This website presents the company 'Digifund,' which focuses on startup funding, with an attractive and interactive interface design. The website not only clearly communicates information about the company and their services, but also enhances the user experience through smooth and dynamic animations created by Framer Motion, creating a strong impression of the company's innovation and professionalism.",
+    keywords:
+      "Personal website, portfolio, and blog built with Next.js, TypeScript, Tailwind CSS, SWR, Postgresql, and Prisma.",
+    image:
+      "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1694410290/Personal/digifund-case-study.jpg",
+    stacks: ["Next JS", "Framer Motion", "CSS"],
+    link_demo: {
+      label: "Live Demo",
+      url: "https://digifund-muafalah.vercel.app/",
+    },
+    link_source: {
+      label: "See on Github",
+      url: "https://github.com/muafalah/digifund",
+      icon: "Github",
+    },
+    is_show: true,
+  },
+  {
+    id: 4,
+    title: "Skilvul Challenge: Mentor On Demand - Real Project",
     slug: "skilvul-mentor-on-demand",
     tag: "UI/UX Design",
     description:
@@ -48,8 +94,8 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 3,
-    title: "Skillab, Easy Way to Improve Your Skills - UX Case Study",
+    id: 5,
+    title: "Skillab, Easy Way to Improve Your Skills - Case Study",
     slug: "skillab-ux-case-study",
     tag: "UI/UX Design",
     description:
@@ -80,4 +126,5 @@ export const TAG: tagProjectProps = {
   "UI/UX Design": "bg-purple-300",
   "Frontend Web": "bg-red-300",
   "Backend Web": "bg-blue-300",
+  "Fullstack Web": "bg-green-300",
 };
