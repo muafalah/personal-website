@@ -31,6 +31,7 @@ import {
   SiGithub,
   SiMongodb,
   SiMedium,
+  SiPusher,
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { PiFigmaLogo } from "react-icons/pi";
@@ -110,4 +111,5 @@ export const STACKS: stacksProps = {
     </svg>
   ),
   Figma: <PiFigmaLogo size={iconSize} className="text-rose-500" />,
+  Pusher: <SiPusher size={iconSize} className="text-green-400" />,
 };
