@@ -3,8 +3,18 @@ import { CareerProps } from "../types/careers";
 export const CAREERS: CareerProps[] = [
   {
     position: "Frontend Developer",
-    company: "Blackwolf Tech",
-    link: "https://www.kompas.id",
+    company: "PT Bits Miliartha",
+    link: "https://www.linkedin.com/company/beeid",
+    logo: "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1729691249/Personal/Beecloud_logo_guhvdj.png",
+    location: "Sidoarjo",
+    type: "Fulltime",
+    start_date: "2023-12",
+    end_date: null,
+  },
+  {
+    position: "Frontend Developer",
+    company: "PT Blackwolf Indonesia",
+    link: "https://www.linkedin.com/company/blackwolftech",
     logo: "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1693691029/Personal/blackwolftech.png",
     location: "Remote",
     type: "Freelance",

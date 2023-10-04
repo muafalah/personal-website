@@ -25,8 +25,8 @@ export const METADATA_GLOBAL = {
   username_url: "https://github.com/muafalah",
   fields: ["Frontend Developer", "UI/UX Designer"],
   description:
-    "With 8+ months of frontend web development and 1.5+ years of UI/UX design experience, I excel in crafting captivating and responsive websites. Committed to optimizing user experiences and implementing efficient code using ReactJS, NextJS, Tailwind CSS, and etc. I'm passionate about user-centric, visually engaging design, constantly staying updated on emerging trends. Skilled in cross-functional collaboration, I thrive on creating web applications that exceed client and user expectations.",
-  location: "Malang, Indonesia.",
+    "With 2 years of experience in frontend web development, I specialize in building captivating and responsive websites. I am dedicated to optimizing user experiences and writing efficient code using technologies like ReactJS, NextJS, and Tailwind CSS. Passionate about user-centric and visually engaging designs, I stay updated on the latest trends in web development. I thrive in cross-functional collaboration and enjoy creating web applications that surpass client and user expectations.",
+  location: "Sidoarjo, Indonesia.",
   profile_url:
     "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1693454664/Personal/personal-photo-profile.jpg",
   resume_url:
