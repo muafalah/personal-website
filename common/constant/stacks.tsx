@@ -32,6 +32,7 @@ import {
   SiMongodb,
   SiMedium,
   SiPusher,
+  SiAntdesign,
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { PiFigmaLogo } from "react-icons/pi";
@@ -112,4 +113,5 @@ export const STACKS: stacksProps = {
   ),
   Figma: <PiFigmaLogo size={iconSize} className="text-rose-500" />,
   Pusher: <SiPusher size={iconSize} className="text-green-400" />,
+  "Ant Design": <SiAntdesign size={iconSize} className="text-sky-400" />,
 };

@@ -3,7 +3,90 @@ import { IProjectItem } from "../types/projects";
 export const PROJECTS: IProjectItem[] = [
   {
     id: 1,
-    title: "TerraKota Residence - Real Project",
+    title: "Beecloud - Web Based Accounting Software",
+    slug: "beecloud",
+    tag: "Frontend Web",
+    description:
+      "Beecloud is a bookkeeping application that gives businesses the ability to control their business in real-time from wherever they are. Beecloud offers a number of new features that can help businesses monitor their business performance more efficiently.",
+    keywords:
+      "Beecloud, Akuntansi Online, Bits Miliartha, React JS, Redux, Bootstrap, React Query, Ant Design",
+    image:
+      "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1729692494/Personal/Screenshot_2024-10-23_at_21.08.01_gx7fua.png",
+    stacks: [
+      "React JS",
+      "Bootstrap",
+      "Redux",
+      "React Query",
+      "TypeScript",
+      "Figma",
+      "Ant Design",
+    ],
+    link_demo: {
+      label: "Live Demo",
+      url: "beecloud.id",
+    },
+    link_source: {
+      label: "See on Github",
+      url: "",
+      icon: "Github",
+    },
+    is_show: true,
+  },
+  {
+    id: 2,
+    title: "NgajiAja - Online Quran Tutoring Program",
+    slug: "ngajiaja",
+    tag: "Frontend Web",
+    description:
+      "NgajiAja is an innovative online platform designed to facilitate learning the Quran with personalized guidance from experienced teachers. The website allows users to book Quran study sessions at their convenience, connecting them with qualified instructors in real-time through virtual classrooms. Whether beginners or advanced learners, users can choose from various learning paths, including Tajweed, memorization (Hifz), or Quranic understanding.",
+    keywords:
+      "NgajiAja, Belajar Mengaji, Quran, Islam, React JS, Tailwind CSS, Shadcn UI",
+    image:
+      "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1729691976/Personal/Screenshot_2024-10-23_at_20.59.07_waazh6.png",
+    stacks: [
+      "React JS",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "React Query",
+      "JavaScript",
+      "Figma",
+    ],
+    link_demo: {
+      label: "Live Demo",
+      url: "https://ngajiaja.com",
+    },
+    link_source: {
+      label: "See on Github",
+      url: "",
+      icon: "Github",
+    },
+    is_show: true,
+  },
+  {
+    id: 3,
+    title: "Siklinik - Smart Solutions For Clinic Digitalization",
+    slug: "siklinik",
+    tag: "Frontend Web",
+    description:
+      "SiKlinik is an electronic medical record management (RME) platform designed to simplify clinic management with advanced and integrated features. We are committed to helping clinics improve operational efficiency and quality of health services with the latest technology.",
+    keywords: "Siklinik, Rekam Medis Elektronik, Klinik, Digitalisasi Klinik",
+    image:
+      "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1729736404/Personal/Landing_Page_Dengan_Copy_Baru_hbvmqx.png",
+    stacks: ["React JS", "Tailwind CSS", "Figma"],
+    link_demo: {
+      label: "Live Demo",
+      url: "https://siklinik.com",
+    },
+    link_source: {
+      label: "See on Github",
+      url: "",
+      icon: "Github",
+    },
+    is_show: true,
+  },
+  {
+    id: 4,
+    title: "TerraKota Residence - Elevate Your Living Experience",
     slug: "terrakota-residence",
     tag: "Frontend Web",
     description:
@@ -33,7 +116,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 2,
+    id: 5,
     title: "ArtCraft - Case Study",
     slug: "artcraft",
     tag: "Frontend Web",
@@ -56,7 +139,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 3,
+    id: 6,
     title: "Messenger Clone - Case Study",
     slug: "messenger-clone",
     tag: "Fullstack Web",
@@ -86,7 +169,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 4,
+    id: 7,
     title: "Airbnb Clone - Case Study",
     slug: "airbnb-clone",
     tag: "Fullstack Web",
@@ -109,7 +192,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 5,
+    id: 8,
     title: "Digifund - Case Study",
     slug: "digifund",
     tag: "Frontend Web",
@@ -132,7 +215,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 6,
+    id: 9,
     title: "Skilvul Challenge: Mentor On Demand - Real Project",
     slug: "skilvul-mentor-on-demand",
     tag: "UI/UX Design",
@@ -155,7 +238,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 7,
+    id: 10,
     title: "Skillab, Easy Way to Improve Your Skills - Case Study",
     slug: "skillab-ux-case-study",
     tag: "UI/UX Design",

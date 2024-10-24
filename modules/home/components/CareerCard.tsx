@@ -35,7 +35,13 @@ export default function CareerCard({
       </div>
 
       {logo ? (
-        <Image src={logo} width={55} height={55} alt={company} />
+        <Image
+          src={logo}
+          width={55}
+          height={55}
+          alt={company}
+          className="rounded-xl"
+        />
       ) : (
         <CompanyIcon size={30} />
       )}

@@ -8,6 +8,7 @@ export const SKILLS = [
   "Redux",
   "React Query",
   "Bootstrap",
+  "Ant Design",
   "Material UI",
   "Chakra UI",
   "Node JS",
