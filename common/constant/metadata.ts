@@ -23,9 +23,9 @@ export const METADATA_GLOBAL = {
   nickname: "Ari",
   username: "muafalah",
   username_url: "https://github.com/muafalah",
-  fields: ["Frontend Developer", "UI/UX Designer"],
+  fields: ["Frontend Developer", "Fullstack Developer"],
   description:
-    "With 2 years of experience in frontend web development, I specialize in building captivating and responsive websites. I am dedicated to optimizing user experiences and writing efficient code using technologies like ReactJS, NextJS, and Tailwind CSS. Passionate about user-centric and visually engaging designs, I stay updated on the latest trends in web development. I thrive in cross-functional collaboration and enjoy creating web applications that surpass client and user expectations.",
+    "Fullstack JavaScript Developer with 3 years of experience building, optimizing, and maintaining scalable web applications across both frontend and backend environments. Skilled in modern technologies such as ReactJS, NextJS, Ant Design, Tailwind CSS, and TypeScript on the frontend, as well as ExpressJS, Node.js, and MySQL on the backend. Committed to writing clean, efficient, and maintainable code while delivering seamless user experiences and robust server-side functionality. Adept at working in cross-functional teams, translating business and design requirements into end-to-end technical solutions. Continuously staying updated with the latest JavaScript ecosystem advancements to deliver reliable, high-quality products that exceed client expectations.",
   location: "Sidoarjo, Indonesia.",
   profile_url:
     "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1693454664/Personal/personal-photo-profile.jpg",

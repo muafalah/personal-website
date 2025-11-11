@@ -12,7 +12,7 @@ export const CAREERS: CareerProps[] = [
     end_date: null,
   },
   {
-    position: "Frontend Developer",
+    position: "Fullstack Developer",
     company: "PT Blackwolf Indonesia",
     link: "https://www.linkedin.com/company/blackwolftech",
     logo: "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1693691029/Personal/blackwolftech.png",
