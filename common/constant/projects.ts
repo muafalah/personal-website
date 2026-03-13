@@ -3,11 +3,42 @@ import { IProjectItem } from "../types/projects";
 export const PROJECTS: IProjectItem[] = [
   {
     id: 1,
+    title: "Terra – Empower AI Training with Synthetic Data",
+    slug: "Terra",
+    tag: "Fullstack Web",
+    description:
+      "Terra is a synthetic data generation platform designed to empower AI development. It enables users to simulate, generate, and export photorealistic, labeled datasets for various scenarios. The platform is modular and scalable, targeting domains like autonomous vehicles, smart cities, retail, and industrial inspection. It provides full control over environments, objects, sensors, lighting, and camera movement.",
+    keywords:
+      "Terra, AI Model Training, Synthetic Data Generation",
+    image:
+      "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1773402199/Personal/Terra_platform_hns9r9.png",
+    stacks: [
+      "React JS",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "React Query",
+      "TypeScript",
+      "Express JS",
+      "Node JS",
+    ],
+    link_demo: {
+      label: "Live Demo",
+      url: "https://sigmawave.ai/terra",
+    },
+    link_source: {
+      label: "See on Github",
+      url: "",
+      icon: "Github",
+    },
+    is_show: true,
+  },
+  {
+    id: 2,
     title: "Beecloud - Web Based Accounting Software",
     slug: "beecloud",
     tag: "Frontend Web",
     description:
-      "Beecloud is a bookkeeping application that gives businesses the ability to control their business in real-time from wherever they are. Beecloud offers a number of new features that can help businesses monitor their business performance more efficiently.",
+      "Beecloud is an accounting application that gives businesses the ability to control their business in real-time from wherever they are. Beecloud offers a few new features that can help businesses monitor their business performance more efficiently.",
     keywords:
       "Beecloud, Akuntansi Online, Bits Miliartha, React JS, Redux, Bootstrap, React Query, Ant Design",
     image:
@@ -23,7 +54,7 @@ export const PROJECTS: IProjectItem[] = [
     ],
     link_demo: {
       label: "Live Demo",
-      url: "beecloud.id",
+      url: "https://www.beecloud.id",
     },
     link_source: {
       label: "See on Github",
@@ -33,10 +64,10 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 2,
+    id: 3,
     title: "NgajiAja - Online Quran Tutoring Program",
     slug: "ngajiaja",
-    tag: "Frontend Web",
+    tag: "Fullstack Web",
     description:
       "NgajiAja is an innovative online platform designed to facilitate learning the Quran with personalized guidance from experienced teachers. The website allows users to book Quran study sessions at their convenience, connecting them with qualified instructors in real-time through virtual classrooms. Whether beginners or advanced learners, users can choose from various learning paths, including Tajweed, memorization (Hifz), or Quranic understanding.",
     keywords:
@@ -63,7 +94,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "Siklinik - Smart Solutions For Clinic Digitalization",
     slug: "siklinik",
     tag: "Frontend Web",
@@ -85,10 +116,10 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 4,
+    id: 5,
     title: "TerraKota Residence - Elevate Your Living Experience",
     slug: "terrakota-residence",
-    tag: "Frontend Web",
+    tag: "Fullstack Web",
     description:
       "Introducing TerraKota Residence - a website to showcase a unique residential complex that offers modern architecture and serene natural surroundings. Utilizing cutting-edge technology and innovative design, this project features a range of functionalities including company profile, housing products, photo gallery, purchase promo, and a compelling blog. Equipped with an admin dashboard, users are able to manage the entire website effortlessly with ease. Developed with ReactJS, React Query, React Quill, Tailwind CSS, Chakra UI, and etc.",
     keywords:
@@ -116,7 +147,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 5,
+    id: 6,
     title: "ArtCraft - Case Study",
     slug: "artcraft",
     tag: "Frontend Web",
@@ -139,7 +170,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 6,
+    id: 7,
     title: "Messenger Clone - Case Study",
     slug: "messenger-clone",
     tag: "Fullstack Web",
@@ -169,7 +200,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 7,
+    id: 8,
     title: "Airbnb Clone - Case Study",
     slug: "airbnb-clone",
     tag: "Fullstack Web",
@@ -192,7 +223,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 8,
+    id: 9,
     title: "Digifund - Case Study",
     slug: "digifund",
     tag: "Frontend Web",
@@ -215,7 +246,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 9,
+    id: 10,
     title: "Skilvul Challenge: Mentor On Demand - Real Project",
     slug: "skilvul-mentor-on-demand",
     tag: "UI/UX Design",
@@ -238,7 +269,7 @@ export const PROJECTS: IProjectItem[] = [
     is_show: true,
   },
   {
-    id: 10,
+    id: 11,
     title: "Skillab, Easy Way to Improve Your Skills - Case Study",
     slug: "skillab-ux-case-study",
     tag: "UI/UX Design",

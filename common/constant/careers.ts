@@ -1,6 +1,16 @@
 import { CareerProps } from "../types/careers";
 
 export const CAREERS: CareerProps[] = [
+   {
+    position: "Fullstack Developer",
+    company: "Sigmawave AI",
+    link: "https://www.linkedin.com/company/sigmawave-ai",
+    logo: "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1773402233/Personal/sigmawave_ai_logo_qghdji.jpg",
+    location: "Singapore",
+    type: "Freelance",
+    start_date: "2026-1",
+    end_date: null,
+  },
   {
     position: "Frontend Developer",
     company: "PT Bits Miliartha",
@@ -19,7 +29,7 @@ export const CAREERS: CareerProps[] = [
     location: "Remote",
     type: "Freelance",
     start_date: "2022-12",
-    end_date: null,
+    end_date: "2023-12",
   },
   {
     position: "UI/UX Design Manager",

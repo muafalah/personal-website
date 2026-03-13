@@ -20,12 +20,12 @@ export const METADATA = {
 
 export const METADATA_GLOBAL = {
   fullname: "M. Ifa Amrillah",
-  nickname: "Ari",
+  nickname: "Amri",
   username: "muafalah",
   username_url: "https://github.com/muafalah",
   fields: ["Frontend Developer", "Fullstack Developer"],
   description:
-    "Fullstack JavaScript Developer with 3 years of experience building, optimizing, and maintaining scalable web applications across both frontend and backend environments. Skilled in modern technologies such as ReactJS, NextJS, Ant Design, Tailwind CSS, and TypeScript on the frontend, as well as ExpressJS, Node.js, and MySQL on the backend. Committed to writing clean, efficient, and maintainable code while delivering seamless user experiences and robust server-side functionality. Adept at working in cross-functional teams, translating business and design requirements into end-to-end technical solutions. Continuously staying updated with the latest JavaScript ecosystem advancements to deliver reliable, high-quality products that exceed client expectations.",
+    "Full-Stack JavaScript Developer with 3+ years of experience building scalable web applications from frontend interfaces to backend services. Proficient in ReactJS, NextJS, ExpressJS, NestJS, and modern web technologies, with experience integrating microservices and designing reusable UI systems. Passionate about delivering performant, maintainable, and user-focused applications while collaborating with cross-functional teams to bring complex products to production.",
   location: "Sidoarjo, Indonesia.",
   profile_url:
     "https://res.cloudinary.com/dqhjsjrqc/image/upload/v1693454664/Personal/personal-photo-profile.jpg",
